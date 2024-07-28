@@ -1,0 +1,9 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"D:/Projects/First-Game/FirstGame/Content/Sprites/cave.png","D:/Projects/First-Game/FirstGame/Content/bin/DesktopGL/Sprites/cave.xnb","TextureProcessor","Texture2DContent",14384,1024085,0.111521
+"D:/Projects/First-Game/FirstGame/Content/Sprites/character.png","D:/Projects/First-Game/FirstGame/Content/bin/DesktopGL/Sprites/character.xnb","TextureProcessor","Texture2DContent",10952,278613,0.0050311
+"D:/Projects/First-Game/FirstGame/Content/Sprites/font.png","D:/Projects/First-Game/FirstGame/Content/bin/DesktopGL/Sprites/font.xnb","TextureProcessor","Texture2DContent",2471,138325,0.0037965
+"D:/Projects/First-Game/FirstGame/Content/Sprites/Inner.png","D:/Projects/First-Game/FirstGame/Content/bin/DesktopGL/Sprites/Inner.xnb","TextureProcessor","Texture2DContent",17936,1024085,0.0121066
+"D:/Projects/First-Game/FirstGame/Content/Sprites/log.png","D:/Projects/First-Game/FirstGame/Content/bin/DesktopGL/Sprites/log.xnb","TextureProcessor","Texture2DContent",4950,98389,0.019164
+"D:/Projects/First-Game/FirstGame/Content/Sprites/NPC_test.png","D:/Projects/First-Game/FirstGame/Content/bin/DesktopGL/Sprites/NPC_test.xnb","TextureProcessor","Texture2DContent",1447,32853,0.011732
+"D:/Projects/First-Game/FirstGame/Content/Sprites/objects.png","D:/Projects/First-Game/FirstGame/Content/bin/DesktopGL/Sprites/objects.xnb","TextureProcessor","Texture2DContent",24209,675925,0.0084503
+"D:/Projects/First-Game/FirstGame/Content/Sprites/Overworld.png","D:/Projects/First-Game/FirstGame/Content/bin/DesktopGL/Sprites/Overworld.xnb","TextureProcessor","Texture2DContent",100846,1474645,0.0213789
