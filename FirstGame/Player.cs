@@ -15,11 +15,14 @@ namespace FirstGame
         public Vector2 position;
         public Vector2 velocity;
         public float speed;
+        public Rectangle playerRect;
+        private Vector2 playerSize; 
 
         public Player(Texture2D texture)
         {
             this.texture = texture;
             speed = 5;
+            playerSize = new Vector2(32, 56);
         }
 
         public void Update()
@@ -38,11 +41,13 @@ namespace FirstGame
 
             position += velocity * speed;
             velocity = Vector2.Zero;
+
+            playerRect = new Rectangle(position.ToPoint() + new Point(0, 32), new Point(32, 24));
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(texture, position, new Rectangle(0, 0, 15, 27), Color.White);
+            spriteBatch.Draw(texture, new Rectangle(position.ToPoint(), playerSize.ToPoint()), new Rectangle(0, 0, 16, 28), Color.White);
         }
     }
 }
