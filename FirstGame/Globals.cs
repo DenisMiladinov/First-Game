@@ -15,6 +15,7 @@ namespace FirstGame
         public static ContentManager ContentManager { get; set; }
         public static SpriteBatch SpriteBatch { get; set; }
         public static Point WindowSize { get; set; }
+        public static float TotalSeconds { get; set; }
 
         public static void Update(GameTime gt)
         {

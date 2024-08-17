@@ -26,10 +26,10 @@ D:\Projects\First-Game\FirstGame\obj\Debug\net6.0\FirstGame.AssemblyInfoInputs.c
 D:\Projects\First-Game\FirstGame\obj\Debug\net6.0\FirstGame.AssemblyInfo.cs
 D:\Projects\First-Game\FirstGame\obj\Debug\net6.0\FirstGame.csproj.CoreCompileInputs.cache
 D:\Projects\First-Game\FirstGame\obj\Debug\net6.0\FirstGame.sourcelink.json
-D:\Projects\First-Game\FirstGame\obj\Debug\net6.0\FirstGame.csproj.CopyComplete
 D:\Projects\First-Game\FirstGame\obj\Debug\net6.0\FirstGame.dll
 D:\Projects\First-Game\FirstGame\obj\Debug\net6.0\refint\FirstGame.dll
 D:\Projects\First-Game\FirstGame\obj\Debug\net6.0\FirstGame.pdb
 D:\Projects\First-Game\FirstGame\obj\Debug\net6.0\FirstGame.genruntimeconfig.cache
 D:\Projects\First-Game\FirstGame\obj\Debug\net6.0\ref\FirstGame.dll
 D:\Projects\First-Game\FirstGame\bin\Debug\net6.0\TiledSharp.dll
+D:\Projects\First-Game\FirstGame\obj\Debug\net6.0\FirstGame.csproj.Up2Date

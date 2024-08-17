@@ -26,6 +26,7 @@ namespace FirstGame
         private List<Rectangle> intersections;
         private Texture2D whiteTexture;
         private Matrix matrix;
+        private Player player;
 
         private Texture2D caveSprite;
         private Texture2D characterSprite;
@@ -35,7 +36,6 @@ namespace FirstGame
         private Texture2D NPC_testSprite;
         private Texture2D objectsSprite;
         private Texture2D OverworldSprite;
-        private Player player;
 
         public Game1()
         {
@@ -59,6 +59,7 @@ namespace FirstGame
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
+            Globals.SpriteBatch = _spriteBatch;
 
             textureAtlas = Content.Load<Texture2D>("Sprites/Overworld");
             var map = new TmxMap("../../../Data/OWMap.tmx");
@@ -81,6 +82,7 @@ namespace FirstGame
 
         protected override void Update(GameTime gameTime)
         {
+            Globals.TotalSeconds = (float)gameTime.ElapsedGameTime.TotalSeconds;
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
