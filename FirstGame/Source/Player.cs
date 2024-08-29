@@ -1,11 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FirstGame
 {
@@ -96,7 +91,6 @@ namespace FirstGame
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            //spriteBatch.Draw(texture, new Rectangle(position.ToPoint(), playerSize.ToPoint()), new Rectangle(0, 0, 16, 28), Color.White);
             switch (direction) 
             {
                 case Direction.Right:
@@ -111,6 +105,7 @@ namespace FirstGame
                 case Direction.Down:
                     AnimationDown.Draw(position);
                     break;
+
             }
         }
     }
